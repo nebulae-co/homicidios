@@ -1,0 +1,19 @@
+Package: homicidios
+Type: Package
+Title: Colombian homicides data
+Description: Data containing the yearly population, homicedes and homicide rate
+    of the 1122 colombian municipalities for the period from 1990 to 2013.
+Version: 0.0.0.9000
+Date: 2015-08-01
+Authors@R: c(
+    person("Javier", "Moreno", email = "bluelephant@gmail.com",
+           role = "dtc"),
+    person("Alejandro", "Pelaez", role = "dtc"),
+    person("Daniel", "Moreno", email = "damorenoco@unal.edu.co",
+           role = c("cre", "aut"))
+    )
+Maintainer: Daniel Moreno <damorenoco@unal.edu.co>
+License: CC0
+LazyData: TRUE
+Depends: R (>= 2.10)
+Encoding: UTF-8
