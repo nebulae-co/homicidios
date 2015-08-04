@@ -1,7 +1,7 @@
 #' Colombian population and homicides data
 #'
 #' A dataset containing the yearly population, homicides and homicide rate (per
-#' hundred thousend inhabitants) of the 1122 colombian municipalities (cities,
+#' hundred thousand inhabitants) of the 1122 colombian municipalities (cities,
 #' towns and smaller populated administrative areas) for the period from 1990 to
 #' 2013.
 #'
@@ -17,11 +17,11 @@
 #'   \item{año}{year}
 #'   \item{poblacion}{estimated population}
 #'   \item{homicidios}{registered homicides}
-#'   \item{tasa}{homicide rate per hundred thousend inhabitants}
+#'   \item{tasa}{homicide rate per hundred thousand inhabitants}
 #' }
 #'
-#' @source Data originally gathered from diffent sources by Alejandro Pelaez and Javier
-#'         Moreno. See the repository and an interactive vizualisation:
+#' @source Data originally gathered from different sources by Alejandro Pelaez and Javier
+#'         Moreno. See the repository and an interactive visualization:
 #' \url{http://github.com/finiterank/homicidios/}
 #' \url{http://finiterank.github.io/homicidios/}
 #'
