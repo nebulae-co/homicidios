@@ -15,5 +15,7 @@ Authors@R: c(
 Maintainer: Daniel Moreno <damorenoco@unal.edu.co>
 License: CC0
 LazyData: TRUE
-Depends: R (>= 2.10)
+Depends:
+    R (>= 2.10)
 Encoding: UTF-8
+RoxygenNote: 5.0.1.9000
