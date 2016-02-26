@@ -1,0 +1,50 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.rmd. Please edit that file -->
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(fig.align = "center",
+                      fig.path = "README/",
+                      comment = "#>",
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+# homicidios
+
+**homicidios** es un paquete de datos de R con datos anuales del tamaño de la
+población, el numero de homicidios y las tasas de homicidio (por cada 100 mil
+habitantes) para los municipios de Colombia entre 1990 y 2013.
+
+## Instalación
+
+Para instalarlo es necesario tener [`devtools`](https://github.com/hadley/devtools)
+instalado:
+
+```r
+    install.packages("devtools")
+    devtools::install_github("nebulae-co/saber")
+```
+
+## Uso
+
+Una vez instalado se puede cargar para tener acceso al `data.frame` `homicidios`:
+
+```{r homicidios}
+library("homicidios")
+
+head(homicidios)
+```
+
+Pueden ver detalles en la documentación: `?homicidios`.
+
+## Fuente
+Los datos fueron recolectados de diferentes fuentes y organizados originalmente
+por [Alejadron Pelaez](https://twitter.com/apelaez) y
+[Javier Moreno](https://github.com/finiterank) para esta visualización
+interactiva: http://finiterank.github.io/homicidios (acá el repositorio:
+http://github.com/finiterank/homicidios).
